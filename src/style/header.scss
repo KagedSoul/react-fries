@@ -1,0 +1,38 @@
+.header-wrapper {
+  display: flex;
+  width: auto;
+  height: 250px;
+  justify-content: space-between;
+  background-color: #11122b;
+  text-align: center;
+  align-items: center;
+  color: #cbcbcb;
+  padding: 30px;
+
+  .left-column {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+  }
+
+  .center-column {
+    display: grid;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .right-column {
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+  }
+}
