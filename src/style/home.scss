@@ -11,4 +11,25 @@
   .footerImage {
     background-size: 100px;
   }
+  .features-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+
+    .column {
+      display: block;
+      padding: 20px;
+      margin: 40px;
+      text-align: center;
+      font-size: 1.5rem;
+      h3 {
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+      }
+      p {
+        letter-spacing: 2px;
+      }
+    }
+  }
 }

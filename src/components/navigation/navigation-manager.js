@@ -28,13 +28,6 @@ export default function () {
           Menu
         </NavLink>
       </div>
-      {/* </div> */}
     </div>
   );
 }
-
-// <div className="nav-link-wrapper">
-//   <NavLink exact to="/" activeClassName="active-nav-link">
-//     Home
-//   </NavLink>
-// </div>;
